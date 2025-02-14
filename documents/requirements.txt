@@ -1,0 +1,6 @@
+Playwright- Accessibility:
+Installation ->
+npm install @axe-core/playwright
+npm install axe-core
+axe-html-reporter ->
+npm i axe-html-reporter

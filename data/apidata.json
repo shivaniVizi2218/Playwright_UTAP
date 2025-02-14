@@ -1,0 +1,17 @@
+{
+    "baseUrl": "https://reqres.in/api",
+    "user": {
+      "name": "Vijay",
+      "job": "SoftwareDeveloper",
+      "updatedJob": "SeniorDeveloper",
+      "patchedJob": "LeadDeveloper"
+    },
+    "endpoints": {
+      "users": "/users",
+      "userById": "/users/2"
+    },
+    "queryParams": {
+      "page": "?page=2"
+    }
+  }
+  

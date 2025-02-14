@@ -1,0 +1,27 @@
+{
+  "name": "playwright_utap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "npx playwright test ./tests/swagLabs.spec.js & npx playwright show-report",
+    "api": "npx playwright test ./tests/API.spec.js & npx playwright show-report",
+    "webAccessibility": "npx playwright test ./tests/webAccessibility.spec.js & npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@faker-js/faker": "^9.0.0",
+    "axe-core": "^4.10.0",
+    "axe-html-reporter": "^2.2.11",
+    "browserstack-local": "^1.5.5",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.46.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.1.0"
+  }
+}
